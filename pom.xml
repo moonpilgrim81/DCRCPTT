@@ -70,9 +70,7 @@
             -->
 
             <!-- Or specify a path to AUT folder -->
-            <!--
-            <explicit>/Users/RCPTTuser/path/to/aut</explicit>
-            -->
+            <explicit>C:\Program Files\Actian\dc-rcp-64-bit-11.1.1-18</explicit>
 
             <!-- As well AUT can be downloaded from HTTP -->
             <!--
@@ -144,9 +142,9 @@
             <!-- RCPTT Runner location can be set using the same methods 
                  as AUT location:
             -->
-            <!--
-            <explicit>/path/to/rcptt/runner</explicit>
-            -->
+            
+            <explicit>C:\QETools\RCPTT\rcptt.runner-2.2.0\eclipse\runner</explicit>
+            
             
             <!-- but the most convenient way is to just set its version,
                  RCPTT maven plugin will automatically set right groupId and
