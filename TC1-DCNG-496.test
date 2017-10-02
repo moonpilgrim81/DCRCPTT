@@ -1,0 +1,27 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _idi9AKIiEeewU7595dKm3g,_0EfpAJylEee7PLJpD_F6bA,_tY2s0J1oEee7PLJpD_F6bA
+Element-Name: TC1-DCNG-496
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _DHS90Jx6Eee09LfWoZa21Q
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/26/17 2:49 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Validation of Adding Actian DataConnect software Plugin list
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-menu -path "Help/Installation Details" | click
+get-window "DataConnect Installation Details" | get-tab-folder | get-tab-item "Plug-ins" | click
+get-window "DataConnect Installation Details" | get-tab-folder | get-property activePage | equals "Plug-ins" 
+    | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

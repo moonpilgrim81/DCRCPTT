@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Do not modify this file.  It is digitally signed. -->
+<License>
+  <Organization>Pervasive Software, Inc.</Organization>
+  <ProductName>Special code to enable all connectors</ProductName>
+  <SerialNumber>WALL-123455</SerialNumber>
+  <OriginDate>2012-07-06</OriginDate>
+  <Features>
+    <Feature expires="20171231" name="WALL">
+      <Description>Special code to enable all connectors</Description>
+      <FeatureCode value="DAPROFESSIONAL:BTS">A bunch of connectors</FeatureCode>
+      <FeatureCode value="DAENTERPRISE:BTS">A bunch of connectors</FeatureCode>
+      <FeatureCode value="DAACCESS2:BTS">Access</FeatureCode>
+      <FeatureCode value="DAACUCBL:BTS">AcuCOBOL</FeatureCode>
+      <FeatureCode value="DABCP:BTS">SQL Server BCP</FeatureCode>
+      <FeatureCode value="DABCPS:BTS">Sybase BCP</FeatureCode>
+      <FeatureCode value="DABINARY:BTS">Binary</FeatureCode>
+      <FeatureCode value="DABINARYI:BTS">Binary (International)</FeatureCode>
+      <FeatureCode value="DABINVSLS:BTS">Binary Line Sequential</FeatureCode>
+      <FeatureCode value="DABINVSMVS:BTS">Variable Sequential (MVS)</FeatureCode>
+      <FeatureCode value="DABINVSRVU:BTS">Variable Sequential (Record-V UniKix)</FeatureCode>
+      <FeatureCode value="DABINVSSS:BTS">Variable Sequential (SyncSort)</FeatureCode>
+      <FeatureCode value="DABTRIEVE:BTS">Btrieve 5.x/6.x</FeatureCode>
+      <FeatureCode value="DABTRIEVE10:BTS">Btrieve 10.x</FeatureCode>
+      <FeatureCode value="DABTRIEVE7:BTS">Btrieve 7.x</FeatureCode>
+      <FeatureCode value="DABTRIEVE8:BTS">Btrieve 8.x</FeatureCode>
+      <FeatureCode value="DABTRIEVE9:BTS">Btrieve 9.x</FeatureCode>
+      <FeatureCode value="DACISAM:BTS">C-Isam</FeatureCode>
+      <FeatureCode value="DACLARION:BTS">Clarion</FeatureCode>
+      <FeatureCode value="DACLIPPER:BTS">Clipper</FeatureCode>
+      <FeatureCode value="DACTREE:BTS">C-Tree</FeatureCode>
+      <FeatureCode value="DACTREE-PLUS:BTS">C-Tree Plus</FeatureCode>
+      <FeatureCode value="DADATAEASE:BTS">DataEase</FeatureCode>
+      <FeatureCode value="DADB2:BTS">IBM DB2</FeatureCode>
+      <FeatureCode value="DADB2LOAD:BTS">DB2 Loader</FeatureCode>
+      <FeatureCode value="DADB2MM:BT">IBM DB2 Multimode</FeatureCode>
+      <FeatureCode value="DADB2V7:BTS">IBM DB2 7.2</FeatureCode>
+      <FeatureCode value="DADB2V7MM:BT">IBM DB2 7.2 Multimode</FeatureCode>
+      <FeatureCode value="DADB2V9:BTS">IBM DB2 9.5</FeatureCode>
+      <FeatureCode value="DADB2V9MM:BT">IBM DB2 9.5 Multimode</FeatureCode>
+      <FeatureCode value="DADBASE:BTS">dBASE IV</FeatureCode>
+      <FeatureCode value="DADBASE2:BTS">dBASE II</FeatureCode>
+      <FeatureCode value="DADBASE3P:BTS">dBASE III+</FeatureCode>
+      <FeatureCode value="DADBASE5:BTS">Visual dBASE 5.5</FeatureCode>
+      <FeatureCode value="DADBLOAD:BTS">Informix DB Loader</FeatureCode>
+      <FeatureCode value="DADIF:BTS">DIF</FeatureCode>
+      <FeatureCode value="DADLMASCII:BTS">Delimited ASCII</FeatureCode>
+      <FeatureCode value="DADLMJOIN:BS">Delimited ASCII Join</FeatureCode>
+      <FeatureCode value="DADLMUNICODE:BTS">Delimited Unicode</FeatureCode>
+      <FeatureCode value="DAEDF:BTS">EDIFACT</FeatureCode>
+      <FeatureCode value="DAEDF2:BTS">EDIFACT (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAEDI:BTS">EDI (X12)</FeatureCode>
+      <FeatureCode value="DAEDI2:BTS">EDI X12 (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAENABLE:BTS">Enable</FeatureCode>
+      <FeatureCode value="DAENABLEOA:BTS">Enable OA (Database)</FeatureCode>
+      <FeatureCode value="DAEXCEL:BTS">Excel v2/3/4</FeatureCode>
+      <FeatureCode value="DAEXCEL8:BTS">Excel 97/2002/XP</FeatureCode>
+      <FeatureCode value="DAEXCELNEW:BTS">Excel v5/95</FeatureCode>
+      <FeatureCode value="DAEXCELV2:BTS">Excel v2</FeatureCode>
+      <FeatureCode value="DAEXCELV3:BTS">Excel v3</FeatureCode>
+      <FeatureCode value="DAFASTLD:BTS">Teradata Fastload</FeatureCode>
+      <FeatureCode value="DAFIX:BTS">Financial Information eXchange (FIX)</FeatureCode>
+      <FeatureCode value="DAFIXASCII:BTS">Fixed ASCII</FeatureCode>
+      <FeatureCode value="DAFIXASCIIEDI:BTS">Fixed ASCII EDI</FeatureCode>
+      <FeatureCode value="DAFIXUNICODE:BTS">Fixed Unicode</FeatureCode>
+      <FeatureCode value="DAFOLIO:BT">Folio Flat File</FeatureCode>
+      <FeatureCode value="DAFOXPRO:BTS">FoxPro</FeatureCode>
+      <FeatureCode value="DAFUJCBL:BTS">Fujitsu Cobol</FeatureCode>
+      <FeatureCode value="DAHCFA:BTS">HCFA 1500</FeatureCode>
+      <FeatureCode value="DAHCFA2:BTS">HCFA1500 (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAHIP:BTS">HIPAA</FeatureCode>
+      <FeatureCode value="DAHIP2:BTS">HIPAA (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAHL7:BTS">HL7</FeatureCode>
+      <FeatureCode value="DAHL7V2:BTS">HL7 (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAHTML:BT">HTML</FeatureCode>
+      <FeatureCode value="DAIDAPI:BTS">IDAPI</FeatureCode>
+      <FeatureCode value="DAIDOC:BTS">SAP (IDoc)</FeatureCode>
+      <FeatureCode value="DAIDOC2:BTS">SAP IDoc (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAINFMXSVR:BTS">IBM Informix Dynamic Server</FeatureCode>
+      <FeatureCode value="DAINFMXSVRMM:BT">IBM Informix Dynamic Server Multimode</FeatureCode>
+      <FeatureCode value="DAINFORMIX:BTS">Informix SE</FeatureCode>
+      <FeatureCode value="DAJOIN:BS">Join engine</FeatureCode>
+      <FeatureCode value="DAL123:BTS">Lotus 123</FeatureCode>
+      <FeatureCode value="DAL123R1A:BTS">Lotus 123 r1A</FeatureCode>
+      <FeatureCode value="DAL123R2:BTS">Lotus 123 r2</FeatureCode>
+      <FeatureCode value="DAL123R3:BTS">Lotus 123 r3</FeatureCode>
+      <FeatureCode value="DALDAP:BTS">LDAP</FeatureCode>
+      <FeatureCode value="DALNST:BTS">LNST</FeatureCode>
+      <FeatureCode value="DAMERGE:BS">Merge engine</FeatureCode>
+      <FeatureCode value="DAMFCOBOL:BTS">Microfocus Cobol</FeatureCode>
+      <FeatureCode value="DAMSCRM:BTS">Microsoft CRM</FeatureCode>
+      <FeatureCode value="DAMSCRM3:BTS">Microsoft CRM 3.0</FeatureCode>
+      <FeatureCode value="DAMSCRM4:BTS">Microsoft CRM 4.0</FeatureCode>
+      <FeatureCode value="DAMYSQL:BTS">MySQL</FeatureCode>
+      <FeatureCode value="DAMYSQLMM:BT">MySQL Multimode</FeatureCode>
+      <FeatureCode value="DANOTES5:BTS">Lotus Notes v5</FeatureCode>
+      <FeatureCode value="DANOTIFY:BTS">Notifier</FeatureCode>
+      <FeatureCode value="DANULL:BTS">NULL</FeatureCode>
+      <FeatureCode value="DAOCI:BTS">Oracle 7.x</FeatureCode>
+      <FeatureCode value="DAOCI10:BTS">Oracle 10g</FeatureCode>
+      <FeatureCode value="DAOCI10MM:BT">Oracle 10g Multimode</FeatureCode>
+      <FeatureCode value="DAOCI11:BTS">Oracle 11g</FeatureCode>
+      <FeatureCode value="DAOCI11MM:BT">Oracle 11g Multimode</FeatureCode>
+      <FeatureCode value="DAOCI12:BTS">Oracle 12c</FeatureCode>
+      <FeatureCode value="DAOCI12MM:BT">Oracle 12c Multimode</FeatureCode>
+      <FeatureCode value="DAOCI8:BTS">Oracle 8.x</FeatureCode>
+      <FeatureCode value="DAOCI8MM:BT">Oracle 8.x Multimode</FeatureCode>
+      <FeatureCode value="DAOCI9:BTS">Oracle</FeatureCode>
+      <FeatureCode value="DAOCI9MM:BT">Oracle Multimode</FeatureCode>
+      <FeatureCode value="DAOCIDP:BTS">Oracle Direct Path</FeatureCode>
+      <FeatureCode value="DAOCIDP10:BTS">Oracle 10g Direct Path</FeatureCode>
+      <FeatureCode value="DAOCIDP11:BTS">Oracle 11g Direct Path</FeatureCode>
+      <FeatureCode value="DAOCIDP12:BTS">Oracle 12c Direct Path</FeatureCode>
+      <FeatureCode value="DAOCIDP9:BTS">Oracle 9i Direct Path</FeatureCode>
+      <FeatureCode value="DAODBC3:BTS">ODBC 3.x</FeatureCode>
+      <FeatureCode value="DAODBC35:BTS">ODBC 3.5</FeatureCode>
+      <FeatureCode value="DAODBC35MM:BT">ODBC 3.5 Multimode</FeatureCode>
+      <FeatureCode value="DAVWISE:BTS">Vectorwise</FeatureCode>
+      <FeatureCode value="DAVWISEMM:BT">Vectorwise Multimode</FeatureCode>
+      <FeatureCode value="DAODBC3MM:BT">ODBC 3.x Multimode</FeatureCode>
+      <FeatureCode value="DAONLINE:BTS">Informix Online</FeatureCode>
+      <FeatureCode value="DAONLINEMM:BT">Informix Online Multimode</FeatureCode>
+      <FeatureCode value="DAPGSQL:BTS">PostgreSQL</FeatureCode>
+      <FeatureCode value="DAPGSQLMM:BT">PostgreSQL Multimode</FeatureCode>
+      <FeatureCode value="DAPLS:BT">Personal Librarian</FeatureCode>
+      <FeatureCode value="DAPSQL11:BTS">Pervasive.SQL V11</FeatureCode>
+      <FeatureCode value="DAPSQL11MM:BT">Pervasive.SQL V11 Multimode</FeatureCode>
+      <FeatureCode value="DAPSQL8:BTS">Pervasive.SQL V8</FeatureCode>
+      <FeatureCode value="DAPSQL8MM:BT">Pervasive.SQL V8 Multimode</FeatureCode>
+      <FeatureCode value="DAQPROW:BS">Quattro Pro Windows</FeatureCode>
+      <FeatureCode value="DAREDBR:BTS">Red Brick</FeatureCode>
+      <FeatureCode value="DAREMEDY:BTS">Remedy ARS</FeatureCode>
+      <FeatureCode value="DAREPORT:BS">Content Extractor</FeatureCode>
+      <FeatureCode value="DARPDICT:BS">EDI (CXL)</FeatureCode>
+      <FeatureCode value="DARPDLM:BS">EDI/HL7 old text</FeatureCode>
+      <FeatureCode value="DARTF:BT">Rich Text Format</FeatureCode>
+      <FeatureCode value="DASASNEW:BTS">SAS Transport Format</FeatureCode>
+      <FeatureCode value="DASBLDATA:BTS">Oracle Siebel Data</FeatureCode>
+      <FeatureCode value="DASCSQL:BTS">Scalable SQL</FeatureCode>
+      <FeatureCode value="DASDO:BTS">Service Data Objects</FeatureCode>
+      <FeatureCode value="DASDODMS:BTS">Service Data Objects through DMS</FeatureCode>
+      <FeatureCode value="DASEQBIN:BTS">Sequential Binary</FeatureCode>
+      <FeatureCode value="DASFDC:BTS">SalesForce.com</FeatureCode>
+      <FeatureCode value="DASFDC2:BTS">SalesForce.com (SOAP API)</FeatureCode>
+      <FeatureCode value="DASGML:BT">SGML</FeatureCode>
+      <FeatureCode value="DASIM:BTS">SQL Simulator</FeatureCode>
+      <FeatureCode value="DASLCRM:BTS">SalesLogix</FeatureCode>
+      <FeatureCode value="DASODCRM:BTS">Oracle Siebel OnDemand CRM</FeatureCode>
+      <FeatureCode value="DASODCRM5:BTS">Oracle Siebel OnDemand CRM 10</FeatureCode>
+      <FeatureCode value="DASODCRM6:BTS">Oracle Siebel OnDemand CRM 12</FeatureCode>
+      <FeatureCode value="DASODCRM7:BTS">Oracle Siebel OnDemand CRM 14</FeatureCode>
+      <FeatureCode value="DASODCRM51">Oracle Siebel CRM On Demand 51</FeatureCode>
+      <FeatureCode value="DASPLUS:BTS">SPLUS</FeatureCode>
+      <FeatureCode value="DASPSS:BTS">SPSS</FeatureCode>
+      <FeatureCode value="DASQLAZURE:BTS">Microsoft SQL Azure</FeatureCode>
+      <FeatureCode value="DASQLAZUREMM:BT">Microsoft SQL Azure Multimode</FeatureCode>
+      <FeatureCode value="DASQLBASE:BTS">SQLBase</FeatureCode>
+      <FeatureCode value="DASQLBASE6:BTS">SQLBase 6</FeatureCode>
+      <FeatureCode value="DASQLLOAD:BTS">Oracle SQL Loader</FeatureCode>
+      <FeatureCode value="DASQLMM:BT">SQL Script</FeatureCode>
+      <FeatureCode value="DASQLS:BTS">SQL Server 6</FeatureCode>
+      <FeatureCode value="DASQLS7:BTS">SQL Server 7/2000</FeatureCode>
+      <FeatureCode value="DASQLS12:BTS">SQL Server 2012</FeatureCode>
+      <FeatureCode value="DASQLS7BL:BT">SQL Server 7 Mass Insert</FeatureCode>
+      <FeatureCode value="DASQLS12BL:BT">SQL Server 2012 Mass Insert</FeatureCode>
+      <FeatureCode value="DASQLS7MM:BT">SQL Server 7/2000 Multimode</FeatureCode>
+      <FeatureCode value="DASQLS12MM:BT">SQL Server 2012 Multimode</FeatureCode>
+      <FeatureCode value="DASQLSB:BT">SQL Server Mass Insert</FeatureCode>
+      <FeatureCode value="DASTATISTICA:BTS">Statistica</FeatureCode>
+      <FeatureCode value="DASWF:BTS">SWIFT</FeatureCode>
+      <FeatureCode value="DASWF2:BTS">SWIFT (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DASYBIQ:BTS">Sybase Adaptive Server IQ</FeatureCode>
+      <FeatureCode value="DASYBIQMM:BT">Sybase Adaptive Server IQ Multimode</FeatureCode>
+      <FeatureCode value="DASYBS:BTS">Sybase Adaptive Server 11</FeatureCode>
+      <FeatureCode value="DASYBS15:BTS">Sybase Adaptive Server 15</FeatureCode>
+      <FeatureCode value="DASYBS15MM:BT">Sybase Adaptive Server 15 Multimode</FeatureCode>
+      <FeatureCode value="DASYBSB:BT">Sybase SQL Server Mass Insert</FeatureCode>
+      <FeatureCode value="DASYBSMM:BT">Sybase Adaptive Server 11 Multimode</FeatureCode>
+      <FeatureCode value="DASYSTAT:BTS">Systat</FeatureCode>
+      <FeatureCode value="DATRD:BTS">TRADACOMS</FeatureCode>
+      <FeatureCode value="DATRD2:BTS">TRADACOMS (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAUB92:BTS">UB92</FeatureCode>
+      <FeatureCode value="DAUB92v2:BTS">UB92 (eDoc) 2nd generation</FeatureCode>
+      <FeatureCode value="DAUSMARC:BS">USMarc</FeatureCode>
+      <FeatureCode value="DAVFOXPRO:BS">Visual FoxPro</FeatureCode>
+      <FeatureCode value="DAWEBROWSET:BTS">WebRowSet</FeatureCode>
+      <FeatureCode value="DAWORDPERFECT:BTS">WordPerfect 6.0 (Mail Merge)</FeatureCode>
+      <FeatureCode value="DAWSQL5:BTS">Sybase SQL Anywhere 5</FeatureCode>
+      <FeatureCode value="DAWSQL6:BTS">Sybase SQL Anywhere 6</FeatureCode>
+      <FeatureCode value="DAXLN2:BTS">eXcelon 2.x</FeatureCode>
+      <FeatureCode value="DAXLN3:BTS">eXcelon XIS 3.0</FeatureCode>
+      <FeatureCode value="DAXML2:BTS">XML</FeatureCode>
+      <FeatureCode value="DAGOODDATA:BTS">XML</FeatureCode>
+      <FeatureCode value="DAPIVOTAL:T">Pivotal Business Server 5.9</FeatureCode>
+      <FeatureCode value="DADYNAMICSGP9:BTS">Microsoft Dynamics GP 9</FeatureCode>
+      <FeatureCode value="DADYNAMICSGP10:BTS">Microsoft Dynamics GP 10</FeatureCode>
+      <FeatureCode value="DANETSUITE26:BTS">NetSuite 2.6</FeatureCode>
+      <FeatureCode value="DAQUICKBOOKS:BTS">QuickBooks</FeatureCode>
+      <FeatureCode value="DAEXACTSYNERGY:BTS">Exact Synergy Enterprise Release 240</FeatureCode>
+      <FeatureCode value="DARIGHTNOW82:BTS">RightNow 8.2 CRM</FeatureCode>
+      <FeatureCode value="DARIGHTNOWCX:BTS">RightNow CX CRM</FeatureCode>
+      <FeatureCode value="DADYNAMICSAX4:BTS">Microsoft Dynamics AX 4</FeatureCode>
+      <FeatureCode value="DAEXCEL2007:BTS">Excel 2007</FeatureCode>
+      <FeatureCode value="DASAGE50ACCOUNTS:BTS">Sage 50 Accounts</FeatureCode>
+      <FeatureCode value="DADERBY:BTS">Derby</FeatureCode>
+      <FeatureCode value="DAODATA:BTS">OData</FeatureCode>
+      <FeatureCode value="DAVECTOR:BTS">Vector</FeatureCode>
+      <FeatureCode value="DAVECTORMM:BT">Vector MultiMode</FeatureCode>
+      <FeatureCode value="DANETSUITE26:BTS">Netsuite 2012</FeatureCode>
+      <FeatureCode value="MAARS">ASCII record structure</FeatureCode>
+      <FeatureCode value="MABTRV">Btrieve DDF</FeatureCode>
+      <FeatureCode value="MABTRV10">Btrieve 10.x DDF</FeatureCode>
+      <FeatureCode value="MABTRV7">Btrieve 7.x DDF</FeatureCode>
+      <FeatureCode value="MABTRV8">Btrieve 8.x DDF</FeatureCode>
+      <FeatureCode value="MABTRV9">Btrieve 9.x DDF</FeatureCode>
+      <FeatureCode value="MACOB21">Cobol 01</FeatureCode>
+      <FeatureCode value="MACST">C Structure</FeatureCode>
+      <FeatureCode value="MACTP">CtreePlus resource dictionary</FeatureCode>
+      <FeatureCode value="MACWM">Common Warehouse Metadata</FeatureCode>
+      <FeatureCode value="MADDL">SQL DDL</FeatureCode>
+      <FeatureCode value="MADJ42">DJ4.2 Connection Spec</FeatureCode>
+      <FeatureCode value="MAERW">ERWIN</FeatureCode>
+      <FeatureCode value="MAGXML">DJ Document Schemas</FeatureCode>
+      <FeatureCode value="MAXDR">XML XDR Schema</FeatureCode>
+      <FeatureCode value="MAXML2">XML DTD</FeatureCode>
+      <FeatureCode value="MAXMLS">XML Schema</FeatureCode>
+      <FeatureCode value="MAXMLS2">New XML Schema</FeatureCode>
+      <FeatureCode value="VAEDF">EDIFACT</FeatureCode>
+      <FeatureCode value="VAEDI">EDI</FeatureCode>
+      <FeatureCode value="VAFIX">FIX</FeatureCode>
+      <FeatureCode value="VAHL7">HL7</FeatureCode>
+      <FeatureCode value="VAIDOC">IDOC</FeatureCode>
+      <FeatureCode value="VANSF">NSF</FeatureCode>
+      <FeatureCode value="VASWF">SWIFT</FeatureCode>
+      <FeatureCode value="VATRD">TRADACOMS</FeatureCode>
+      <FeatureCode value="VAXML">XML DTD</FeatureCode>
+      <FeatureCode value="VAXMLS">XML Schema</FeatureCode>
+      <FeatureCode value="VAEDIX12EDOC">EDI X12 (eDoc) Valodator</FeatureCode>
+      <FeatureCode value="QAOAQMCF">Oracle AQ</FeatureCode>
+      <FeatureCode value="QAAUTOMAP">Automatic Mapping Transformer</FeatureCode>
+      <FeatureCode value="QABUILD">File Transfer Builder</FeatureCode>
+      <FeatureCode value="QADYNMPLD">Dynamic Map Invoker</FeatureCode>
+      <FeatureCode value="QAFFQ">FFQueue</FeatureCode>
+      <FeatureCode value="QAFTP">FTP</FeatureCode>
+      <FeatureCode value="QAIBM">MQ Series</FeatureCode>
+      <FeatureCode value="QAJMS">JMS</FeatureCode>
+      <FeatureCode value="QAMS">MSMQ</FeatureCode>
+      <FeatureCode value="QAQ2WRST">Query To WebRowSet Invoker</FeatureCode>
+      <FeatureCode value="QASPLIT">File Transfer Splitter</FeatureCode>
+      <FeatureCode value="QAWRSTUPD">WebRowSet Updater</FeatureCode>
+      <FeatureCode value="QAX12BLD">EDI (X12) FG Builder</FeatureCode>
+      <FeatureCode value="QAX12BSPL">EDI (X12) BT Iterator</FeatureCode>
+      <FeatureCode value="QAX12SPL">EDI (X12) FG Iterator</FeatureCode>
+      <FeatureCode value="QAX12TSPL">EDI (X12) TS Iterator</FeatureCode>
+      <FeatureCode value="QASAPINV">SAP Invoker Component</FeatureCode>
+      <FeatureCode value="QAINDRINV">DataRush Invoker Component</FeatureCode>
+      <FeatureCode value="QATRXMLMAPGUI">MCF XML Mapper Component - User Interface</FeatureCode>
+      <FeatureCode value="QATRXMLMAPEXE">MCF XML Mapper Component - Execution</FeatureCode>
+      <FeatureCode value="QAINDPEXE">Data Profiler Component - Execution</FeatureCode>
+      <FeatureCode value="QATRFILEMSG">File To Message Component</FeatureCode>
+      <FeatureCode value="QATRMSGFILE">Message To File Component</FeatureCode>
+      <FeatureCode value="QAMXEMAIL">EMail Component - POP3,IMAP,SMTP</FeatureCode>
+      <FeatureCode value="QAINXQYINV">XQuery Invoker Component</FeatureCode>
+      <FeatureCode value="QAITXPATHITR">XPath Iterator Component</FeatureCode>
+      <FeatureCode value="QAINMSGVAL">Message Validation  Component - Basic and Structural</FeatureCode>
+      <FeatureCode value="QAINMSGACK">Message Acknowledgement Component - Standard and Enhanced</FeatureCode>
+      <FeatureCode value="QAMXMSGMANIP">Message Manipulation Component - Get Segment and Generate Template</FeatureCode>
+      <FeatureCode value="QAITBATCHPRC">Batch Processing Component</FeatureCode>
+      <FeatureCode value="QAAGCONTSEG">Message Continuation Segment Component</FeatureCode>
+      <FeatureCode value="QAQULLPSRVR">MLLP and SNP Server Component</FeatureCode>
+      <FeatureCode value="QAQULLPCLNT">MLLP and SNP Client Component</FeatureCode>
+      <FeatureCode value="QAQUTIMEOUT">Timeout Component</FeatureCode>
+      <FeatureCode value="QAINSCHEMATRON">Schematron Invoker Component</FeatureCode>
+      <FeatureCode value="QAWSINV01">Web Service Invoker Component</FeatureCode>
+      <FeatureCode value="QAITJDBCWRIT">JDBC WebRowSet Iterator</FeatureCode>
+      <FeatureCode value="QAAGJDBCWRAG">JDBC WebRowSet Aggregator</FeatureCode>
+      <FeatureCode value="TRXML2EDI">XMLToEDI Transformer</FeatureCode>
+      <FeatureCode value="TREDI2XML">EDIToXML Transformer</FeatureCode>
+      <FeatureCode value="QAINMIBWEB">MIB Web-Direct Invoker</FeatureCode>
+      <FeatureCode value="QAINJDBCSP">JDBC Stored Procedure Invoker</FeatureCode>
+      <FeatureCode value="QATRHL7XML">HL7 to XML Transformer</FeatureCode>
+      <FeatureCode value="QATRXMLHL7">XML to HL7 Transformer</FeatureCode>
+      <FeatureCode value="QATRSCRIPT2XML">NCPDP Script to XML Transformer</FeatureCode>
+      <FeatureCode value="QATRXML2SCRIPT">XML to NCPDP Script Transformer</FeatureCode>
+      <FeatureCode value="QAMXNETSUITE25">Netsuite Components for WSDL 2.5 - Updater, Query</FeatureCode>
+      <FeatureCode value="QAINSFCHGDATA">Salesforce Change Data Invoker</FeatureCode>
+      <FeatureCode value="QAINSFSESSTOK">Salesforce Session Token Invoker</FeatureCode>
+      <FeatureCode value="QAQUFTP">FTP Queue 2.0.0</FeatureCode>
+      <FeatureCode value="QAINSBSESSTOK">Siebel CRM On Demand Session Token Invoker</FeatureCode>
+      <FeatureCode value="QARESTINV">REST Invoker</FeatureCode>
+      <FeatureCode value="ACTIVEX">ActiveX/OLE/COM support</FeatureCode>
+      <FeatureCode value="EBCDIC">EBCDIC support</FeatureCode>
+      <FeatureCode value="ENG">Engine</FeatureCode>
+      <FeatureCode value="ENGDQP">Data Quality Profile Engine</FeatureCode>
+      <FeatureCode value="ENGPROFUNDO">Profundo Engine</FeatureCode>
+      <FeatureCode value="ENGSERVICE">Engine as a service</FeatureCode>
+      <FeatureCode value="EXECPROFILER">Execution profiling</FeatureCode>
+      <FeatureCode value="GUIASD">Structured Schema Designer</FeatureCode>
+      <FeatureCode value="GUIDA">Data Analyzer</FeatureCode>
+      <FeatureCode value="GUIDPARSER">Data Parser</FeatureCode>
+      <FeatureCode value="GUIDQP">Data Quality Profiler</FeatureCode>
+      <FeatureCode value="GUIDSD">Document Schema Designer</FeatureCode>
+      <FeatureCode value="GUIEASYLOAD">Easy Loader</FeatureCode>
+      <FeatureCode value="GUIECD">Extract Schema Designer</FeatureCode>
+      <FeatureCode value="GUIEXP">Repository Explorer</FeatureCode>
+      <FeatureCode value="GUIGOPEEP">Data Browser</FeatureCode>
+      <FeatureCode value="GUIIM">Integration Manager</FeatureCode>
+      <FeatureCode value="GUIISAD">Integration Service Designer</FeatureCode>
+      <FeatureCode value="GUIJD">Join Designer</FeatureCode>
+      <FeatureCode value="GUIMAILTOXML">MailToXML</FeatureCode>
+      <FeatureCode value="GUIMD">Map Designer</FeatureCode>
+      <FeatureCode value="GUIMETAD">MetaMap Designer</FeatureCode>
+      <FeatureCode value="GUIPD">Process Designer</FeatureCode>
+      <FeatureCode value="GUIPROFUNDO">Profundo</FeatureCode>
+      <FeatureCode value="GUIRM">Repository Manager</FeatureCode>
+      <FeatureCode value="MT">Thread support</FeatureCode>
+      <FeatureCode value="MULTITIER">ODBC multi-tier driver support</FeatureCode>
+      <FeatureCode value="RECLAYOUT">Multiple record layout support</FeatureCode>
+      <FeatureCode value="REJECT">Reject subsystem</FeatureCode>
+      <FeatureCode value="SNMP">SNMP Support</FeatureCode>
+      <FeatureCode value="SQLPASS">SQL Pass Thru</FeatureCode>
+      <FeatureCode value="TEMPLATE">Template Pasting</FeatureCode>
+      <FeatureCode value="TESTCP">Test Control Panel</FeatureCode>
+      <FeatureCode value="VCS">Version control system</FeatureCode>
+      <FeatureCode value="ENGDFL">Data Flow Engine</FeatureCode>
+      <FeatureCode value="GUIDQV">Data Flow GUI</FeatureCode>
+      <FeatureCode value="GUIDFL">Data Flow GUI</FeatureCode>
+      <FeatureCode value="DADFL:BTS">Datarush Text Delimited</FeatureCode>
+      <FeatureCode value="VAXMLSCHEMA"/>
+      <FeatureCode value="VAXMLDTD"/>
+      <FeatureCode value="DADYNAMICSGP10:BTS">Microsoft Dynamics GP</FeatureCode>
+    </Feature>
+    <FeatureCode expires="20171231" value="PLDARWIN">MacOSX (Darwin) platform</FeatureCode>
+    <FeatureCode expires="20171231" value="DMS">MacOSX (Darwin) platform</FeatureCode>
+    <FeatureCode expires="20171231" value="MAXTHREAD:1024">Max allowed threads</FeatureCode>
+    <FeatureCode expires="20171231" value="PLAIX">AIX platform</FeatureCode>
+    <FeatureCode expires="20171231" value="MAXPOOLSIZE:8">Maximum Engine Count</FeatureCode>
+    <FeatureCode expires="20171231" value="PACKFULL">Full Install Package</FeatureCode>
+    <FeatureCode expires="20171231" value="PLLINUX">Linux platform</FeatureCode>
+    <FeatureCode expires="20171231" value="PACKWORKER">Worker Install Package</FeatureCode>
+    <FeatureCode expires="20171231" value="PLWINDOWS">Windows platform</FeatureCode>
+    <FeatureCode expires="20171231" value="CPU:4">Maximum number of CPUs</FeatureCode>
+    <FeatureCode expires="20171231" value="PACKOTHER">Standalone Embedded Install Package</FeatureCode>
+    <FeatureCode value="RTSERVICES">Real-time Services Enabled</FeatureCode>
+    <FeatureCode value="MAXRTINTCOUNT:1">Real-time Integration Count</FeatureCode>
+    <FeatureCode value="+MAXRTINTCOUNT:1000">Additional Real-time Integration Count</FeatureCode>
+    <FeatureCode value="MT">Thread support</FeatureCode>
+    <Feature expires="20171231" name="ADDON_DRPE">
+      <Description>Pervasive DataRush Profiler Engine</Description>
+      <FeatureCode value="ENGDQP">Data Quality Profile Engine</FeatureCode>
+    </Feature>
+    <Feature expires="20171231" name="ADDON_DRDM">
+      <Description>Pervasive DataRush DataMatcher Application</Description>
+      <FeatureCode value="ENGDRMATCHER">Pervasive DataRush DataMatcher</FeatureCode>
+    </Feature>
+    <Feature expires="20171231" name="ADDON_DRSCRIPTING">
+      <Description>DataRush Scripting</Description>
+      <FeatureCode value="DRSCRIPTS">RushScript Enabled</FeatureCode>
+    </Feature>
+    <Feature expires="20171231" name="ADDON_DRA">
+      <Description>Pervasive DataRush Analytics Application</Description>
+      <FeatureCode value="ENGDRANALYTICS">Pervasive DataRush Analytics</FeatureCode>
+    </Feature>
+    <Feature expires="20171231" name="ADDON_DRKNIME">
+      <Description>Pervasive DataRush KNIME Executor</Description>
+      <FeatureCode value="DRKNIMEEXECUTOR">KNIME DR Executor</FeatureCode>
+    </Feature>
+    <Feature expires="20171231" name="ADDON_unlimitednodes">
+      <Description>Unlimited Nodes</Description>
+      <FeatureCode value="DRNODES:0">Number of Nodes Enabled</FeatureCode>
+    </Feature>
+  </Features>
+  <Signature serial="1485364304">
+o68Sup4R7x+IaT3wTNXQ9/a2g4iq5zhAmBx2SOE3IqnYJxQFlKblKk7qARzPCFLsHLmn0QII
+OV66oFScWlMQ7THuaxHd0khh4PtpI4ylrx/EIcFGg/BK+yhKNJQ/GRdOliRVASNh6JQiBRUS
+bzCBorn30lKrWulQOPKhNnDvI3v6YcZseXzFsJU6MJl1DVB3vXzMYqg0cIMgSvBY1ImsFzMS
+ktRTZU/ygKISTB2A/CCTBn8MxA/T9E78Gr3mHKq8v+5b9H0HBgm/bf0qLFMpb3trUE3Mstyd
+jO9HVVUAd48Na5n3lIR6jS/DmEJZRb39i3HdoEEwmQT/4NmS+F9oImteYrJwzbgeNxI8teWP
+l8BGRenk2WLPk9kG06mFuQJGd2jKLREnVVvBIKlPSee9ZQxtHyFn5hDoSrDDmhdZrbzbTGLt
+1RhTP3jSOEfKyGWWn52oIoHk58aaxNms2sEA0JdSNeLj4WTiXGQ5FdhPaKxlZUpVcdrHjwIv
+Kk+e3tFVOAf7/T5IbanDQIIKtCHT0jY3yhXmAwMeTd9SmZD1R9JEDqk3hMg172EW82IS+S8A
+tUkHQVPeNZph5nptaXr6p0we5x5nA4NhRr8r/VB9pOnJoPnKX8zptzE/pEMDjGbZLk0IT1F/
+TXOyKBJigKuxSTQGFE0je+dU23tvIpM6BPQ=</Signature>
+</License>

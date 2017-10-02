@@ -1,0 +1,109 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _idi9AKIiEeewU7595dKm3g,_0EfpAJylEee7PLJpD_F6bA,_tY2s0J1oEee7PLJpD_F6bA
+Element-Name: TC8-DCNG-585 1324 1327
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _LFKgYJ74Eee7PLJpD_F6bA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/26/17 4:30 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+DCNG-1324 Copy Paste test on EZscript
+DCNG-585 Verify user selection using Content Assist
+
+
+* DCNG-585 - Can't capture Tool tip Assist layer.
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+////DCNG-1324
+addProject $pName
+
+//thefirstpopup
+
+//try {
+//	get-window "Open Associated Perspective?" | is-disposed | get-button Yes | click 
+//}	
+
+//get-window "Open Associated Perspective?" | get-property title | equals "Open Associated Perspective?" | verify-true
+
+
+
+with [get-view "Project Explorer" | get-tree] {
+    select $pName | double-click
+    select $pName | get-menu -path "New/EZscript Library" | click
+}
+with [get-window "New EZscript Library"] {
+    get-button "Next >" | click
+    get-editbox -after [get-label "EZscript Library Name:"] | set-text testezscript
+    get-button Finish | click
+}
+with [get-editor "testezscript.ezscript" | get-text-viewer] {
+    type-text "Copy Test"
+    key-type "M1+a"
+    key-type "M1+c"
+    key-type End
+    key-type Enter
+    key-type "M1+v"
+    key-type Enter
+    key-type "M1+v"
+    key-type Enter
+    key-type "M1+v"
+    key-type "M1+a"
+    key-type Del
+    type-text "Paste Test"
+    key-type "M1+a"
+    key-type "M1+x"
+    set-caret-pos 1 1
+    key-type "M1+v" -times 5
+}
+//get-editor "testezscript.ezscript" | get-text-viewer | get-property text | equals "Copy test\n" + "Copy test" | verify-true
+
+//DCNG-585
+with [get-editor "testezscript.ezscript" | get-text-viewer] {
+    key-type "M1+a"
+    key-type Del
+    set-caret-pos 3 1
+    type-text Abort
+    key-type "M1+SPACE"
+}
+//DCNG-1327
+
+
+with [get-editor "testezscript.ezscript" | get-text-viewer] {
+    key-type "M1+a"
+    key-type Del
+    type-text "DCNG-"
+    key-type "NUMPAD_1" 1
+    key-type "NUMPAD_3" 3
+    key-type "NUMPAD_2" 2
+    key-type "NUMPAD_7" 7
+    type-text " test"
+}
+get-menu -path "File/Close" | click
+get-window "Save Resource" | get-button Yes | click
+get-view "Project Explorer" | get-tree | select "testproject/testezscript.ezscript" | double-click
+with [get-editor "testezscript.ezscript" | get-text-viewer] {
+    set-caret-pos 2 15
+    type-text 1111111
+    key-type Enter
+    type-text afeakljsjkf
+}
+get-menu -path "File/Close" | click
+get-window "Save Resource" | get-button No | click
+get-view "Project Explorer" | get-tree | select "testproject/testezscript.ezscript" | double-click
+with [get-editor "testezscript.ezscript" | get-text-viewer] {
+    set-caret-pos 2 15
+    type-text askljfaklj
+}
+get-menu -path "File/Close" | click
+get-window "Save Resource" | get-button Cancel | click
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

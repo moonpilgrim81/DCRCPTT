@@ -1,0 +1,40 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _idi9AKIiEeewU7595dKm3g,_0EfpAJylEee7PLJpD_F6bA,_tY2s0J1oEee7PLJpD_F6bA
+Element-Name: TC3-DCNG-609
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _BQnPUJ1GEee7PLJpD_F6bA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/26/17 2:57 PM
+Testcase-Type: ecl
+Verifications: _w-MM4KIrEeeOPdTAKF012Q
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Artifacts creation under the DataConnect project
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//addProject DCNG_609
+//addMap DCNG_609 DCNG_609_Map
+//addSchema DCNG_609 DCNG_609_schema
+
+addProject $projectName
+addMap $projectName $mapName
+addSchema $projectName $schemaName
+//get-editor "createschema.ss.xml" | get-tree | select "Source/All Records/R1"
+
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "DCNG_609/DCNG_609_schema.ss.xml" | get-property caption | equals "DCNG_609_schema.ss.xml" | verify-true
+    get-item -path "DCNG_609/DCNG_609_Map.map.xml" | get-property caption | equals "DCNG_609_Map.map.xml" 
+        | verify-true
+    get-item -path "DCNG_609/DCNG_609_Map.tf.xml" | get-property caption | equals "DCNG_609_Map.tf.xml" | verify-true
+}
+getsreenshot "${workspace_loc}/images/testscreenshot.png"
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
