@@ -1,0 +1,59 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: DCNG-Procedure
+Element-Type: context
+Element-Version: 2.0
+Id: _tY2s0J1oEee7PLJpD_F6bA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/25/17 4:28 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc addProject [val projectName] {
+	get-view "Project Explorer" | get-tree | get-menu -path "New/DataConnect Project" | click
+	with [get-window "New DataConnect Project"] {
+	    get-editbox -after [get-label "Project name:"] | set-text $projectName
+	    get-button Finish | click
+	}	
+	// *** this should check the Perspective popup need to test
+	get-view "Project Explorer" | get-tree | select $projectName | verify-error {get-window "Open Associated Perspective?"}
+}
+
+proc addMap [val projectName] [val mapName] {
+	get-view "Project Explorer" | get-tree | select $projectName | get-menu -path "New/Map" | click
+	with [get-window "New Map File"] {
+	    get-editbox -after [get-label "Map File Name:"] | set-text $mapName
+	    get-button Finish | click
+	}
+}
+
+
+proc addSchema [val projectName] [val mapSchema] {
+	get-view "Project Explorer" | get-tree | select $projectName | get-menu -path "New/Schema" | click
+	with [get-window "New Schema File"] {
+	    get-button "Next >" | click
+	    get-editbox -after [get-label "Structured Schema File Name:"] | set-text $mapSchema
+	    get-button "Next >" | click
+	    get-combo -after [get-label "2. Choose Connector :"] | select "ASCII (Delimited)"
+	    get-button "Next >" | click
+	    get-button Finish | click
+	}
+}
+
+proc thefirstpopup {
+	
+	with [get-window "Open Associated Perspective?"] {
+	    with [get-button "Remember my decision"] {
+	        check
+	    }
+	    get-button Yes | click
+	}
+}
+
+proc getsreenshot [val filename]{
+	get-eclipse-window | get-object | save-screenshot [substitute-variables $filename  ] 
+}
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

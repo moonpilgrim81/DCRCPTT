@@ -1,0 +1,47 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.debug
+Debug-NoBreakpoints: false
+Debug-NoLaunchShortcuts: false
+Debug-NoLaunches: false
+Element-Name: Launch Config
+Element-Type: context
+Element-Version: 2.0
+Id: _idi9AKIiEeewU7595dKm3g
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/26/17 3:22 PM
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Preference Contexts
+Preferences contexts allow to ensure that correct Application-Under-Test preferences are applied before test execution. This can be particularly useful when preferences which control the behavior of pop-up dialogs are being set in your AUT. The well-known example, while not completely relevant to test execution, is the Confirm Exit dialog, which has the "Always exit without prompt" checkbox.
+The Preferences Context editor displays tree of all available preferences and allows modifying/removing some of their values.
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_debug.launchtypes-7159add4-14d7-36f5-abc2-a36dec1fc18e
+Content-Type: q7/binary
+Entry-Name: debug.launchtypes
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAkALmNvbnRlbnRVVAUAAQAAAACzsa/IzVEoSy0qzszP
+s1Uy1DNQUkjNS85PycxLt1UKDXHTtVCyt+PlsqnIzbSK8PVUANFw5UYg5UAD8oqtgOK2ShklJQVW+vrl
+5eV6+bnpevlF6fpAPUr6QAMAUEsHCLCug3xbAAAAaQAAAFBLAQIUABQACAgIAAAAIQCwroN8WwAAAGkA
+AAAIAAkAAAAAAAAAAAAAAAAAAAAuY29udGVudFVUBQABAAAAAFBLBQYAAAAAAQABAD8AAACaAAAAAAA=
+
+------=_debug.launchtypes-7159add4-14d7-36f5-abc2-a36dec1fc18e--
+------=_debug.breakpoints-5e4f72bb-803b-3bad-9f69-7f32fb7c3fae
+Content-Type: text/breakpoints
+Entry-Name: debug.breakpoints
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+
+------=_debug.breakpoints-5e4f72bb-803b-3bad-9f69-7f32fb7c3fae--
+------=_debug.launches-be8ac185-ac72-3f40-ae87-94751ee91eea
+Content-Type: text/launch
+Entry-Name: debug.launches
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+
+------=_debug.launches-be8ac185-ac72-3f40-ae87-94751ee91eea--

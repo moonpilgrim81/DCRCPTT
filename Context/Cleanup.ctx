@@ -1,0 +1,27 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.workspace
+Element-Name: Cleanup
+Element-Type: context
+Element-Version: 2.0
+Id: _0EfpAJylEee7PLJpD_F6bA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/25/17 3:41 PM
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Set up the workspace for testing.
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.q7.content-3d2e0690-ce48-3609-83e0-c704d49f1eaf
+Content-Type: q7/binary
+Entry-Name: .q7.content
+
+UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAIAAkALmNvbnRlbnRVVAUAAQAAAACVj80KwjAQhO+C7xD2
+blI9qJTWIv6AouBNb1LTbQ22SWhXW9/eVGiv4m0ZvpnZCaKmyNkLy0oZHcKYe8BQS5MonYXwpHQ0h2gx
+HASmzDjKXNkKeSktEZfU8NqUj8rGEv1zd62MJmyINYXy+9xJm+uadOU7PYQ7kfWFqOuamyLjLlxcjrsO
++dHV2zumtX854TjRc8B0XDh6lWOsnxaYSkK4epvULvfvfIM4Ox32dn3dTm9LcBsZC2T7vCbRLhb/Tnam
+D1BLBwitPwEuwgAAAE8BAABQSwECFAAUAAgICAAAACEArT8BLsIAAABPAQAACAAJAAAAAAAAAAAAAAAA
+AAAALmNvbnRlbnRVVAUAAQAAAABQSwUGAAAAAAEAAQA/AAAAAQEAAAAA
+------=_.q7.content-3d2e0690-ce48-3609-83e0-c704d49f1eaf--

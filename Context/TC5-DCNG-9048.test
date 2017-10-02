@@ -1,0 +1,50 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _idi9AKIiEeewU7595dKm3g,_0EfpAJylEee7PLJpD_F6bA,_tY2s0J1oEee7PLJpD_F6bA
+Element-Name: TC5-DCNG-9048
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _7AWzIKLgEeen3tYId7PKZQ
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/26/17 4:44 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Artifacts creation under the DataConnect project
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+/*
+get-menu -path "Options/Preferences" | click
+with [get-window Preferences] {
+    get-tree | select DataConnect
+    get-button OK | click
+}
+get-view "Project Explorer" | get-tree | get-menu -path "New/DataConnect Project" | click
+with [get-window "New DataConnect Project"] {
+    get-editbox -after [get-label "Project name:"] | set-text "DCNG-9048"
+    get-button Finish | click
+}
+get-view "Project Explorer" | get-tree | select "DCNG-9048" | get-menu -path "New/Map" | click
+with [get-window "New Map File"] {
+    get-editbox -after [get-label "Map File Name:"] | set-text "DCNG-9048-map"
+    get-button Finish | click
+}
+get-editor "DCNG-9048-map.tf.xml" | get-section "Source Connection" | get-combo -after [get-label "Choose Connector"] 
+    | set-text e
+get-window -class ContentProposalPopup | get-table | select "Excel 2000" | click -default
+set-dialog-result File "C:\\Users\\jmoon\\Downloads\\TC44870_CaseSensitivity.xlsx"
+with [get-editor "DCNG-9048-map.tf.xml" | get-section "Source Connection"] {
+    get-button Browse -after [get-label "Source File/URI *"] | click
+    get-editbox -after [get-label "Source File/URI *"] | set-focus
+}
+set-dialog-result MessageBox 32
+get-editor "DCNG-9048-map.tf.xml" | get-section "Source Connection" | get-button Connect | click
+*/
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
