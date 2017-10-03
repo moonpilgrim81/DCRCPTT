@@ -22,7 +22,7 @@
 					</aut>
 					<runner>
 					<version>2.3.0-SNAPSHOT</version>
-					<explicit>C:\QETools\RCPTT\rcptt.runner-2.2.0\eclipse\runner</explicit>
+					<explicit>C:\QETools\RCPTT\rcptt.runner-2.2.0\eclipse</explicit>
 					</runner>
 				</configuration>
 			</plugin>
