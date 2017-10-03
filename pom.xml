@@ -19,6 +19,9 @@
 				<configuration>
 					<aut>
 					<explicit>${autPath}</explicit>
+				   <vmArgs>
+					 <vmArg>-Xmx2g</vmArg>
+				   </vmArgs>					
 					</aut>
 					<runner>
 					<version>2.3.0-SNAPSHOT</version>
