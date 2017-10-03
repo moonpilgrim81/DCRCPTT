@@ -19,6 +19,10 @@
 				<configuration>
 					<aut>
 					<explicit>${autPath}</explicit>
+		            <args>
+		              <arg>-ws</arg>
+		              <arg>$${target.ws}</arg>
+		            </args>					
 					<!--
 				   <vmArgs>
 					 <vmArg>-Xmx768m</vmArg>
